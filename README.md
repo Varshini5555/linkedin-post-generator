@@ -33,9 +33,13 @@ An AI-powered application that generates high-quality LinkedIn posts using Large
 
 ---
 
-## 🏗️ Architecture
+## 🧠 System Architecture
 
-User Input → Data Filtering → Few-Shot Example Selection → Prompt Construction → LLM → Output
+- Data Layer → Processed post dataset with tags and metadata
+- Filtering Layer → Selects examples based on topic, language, persona
+- Prompt Layer → Constructs few-shot prompt dynamically
+- LLM Layer → Generates post using Groq API
+- UI Layer → Streamlit interface for user interaction
 
 ---
 
@@ -55,8 +59,8 @@ User Input → Data Filtering → Few-Shot Example Selection → Prompt Construc
 ![UI](assets/ui.png)
 
 ### Generated Output  
-![Output](assets/output1.png)
-![Output](assets/output2.png)
+![Output](assets/output_1.png)
+![Output](assets/output_2.png)
 
 ---
 
@@ -65,6 +69,13 @@ User Input → Data Filtering → Few-Shot Example Selection → Prompt Construc
 We prioritize deadlines. But neglect self-care. Stress builds up. Anxiety kicks in. Sleepless nights.
 
 That's not productivity. That's a ticking bomb 🚨. Take a breath 🌟. Prioritize your mental health 🧠. Your well-being matters 💖.
+
+---
+
+## 🚀 Future Improvements
+- Multi-post generation
+- Engagement prediction model
+- RAG-based personalization
 
 ---
 
