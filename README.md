@@ -59,8 +59,8 @@ An AI-powered application that generates high-quality LinkedIn posts using Large
 ![UI](assets/ui.png)
 
 ### Generated Output  
-![Output](assets/output_1.png)
-![Output](assets/output_2.png)
+![Output](assets/Output_1.png)
+![Output](assets/Output_2.png)
 
 ---
 
